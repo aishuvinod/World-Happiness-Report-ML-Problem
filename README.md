@@ -5,7 +5,7 @@
 
 This project focuses on analyzing and predicting happiness levels across various countries using the World Happiness Report (WHR) 2018 dataset. The dataset contains socio-economic indicators that influence the "Life Ladder" score, a measure of the overall happiness level in each country.
 
-**Dataset: **
+**Dataset:**
 The dataset, WHR2018Chapter2OnlineData.csv, includes the following features:
 
 Country: The name of the country.
