@@ -1,6 +1,9 @@
+**README.md**
+
+**Description**
 This project focuses on analyzing and predicting happiness levels across various countries using the World Happiness Report (WHR) 2018 dataset. The dataset contains socio-economic indicators that influence the "Life Ladder" score, a measure of the overall happiness level in each country.
 
-Dataset
+**Dataset**
 The dataset, WHR2018Chapter2OnlineData.csv, includes the following features:
 
 Country: The name of the country.
@@ -20,10 +23,10 @@ Delivery Quality: The effectiveness of the government in delivering public servi
 GINI index: The measure of income inequality within the country.
 The dataset was preprocessed by handling missing values, scaling numerical features, and removing features with excessive missing data.
 
-Machine Learning Problem
+**Machine Learning Problem**
 The goal of this project was to develop a predictive model for the "Life Ladder" score using various socio-economic indicators. This is a supervised learning problem that involves regression since the target variable, "Life Ladder," is a continuous numerical value.
 
-Approach
+**Approach**
 Exploratory Data Analysis (EDA):
 Extensive EDA was conducted to understand the relationships between the features and the target variable. Key steps included:
 
@@ -39,7 +42,7 @@ Gradient Boosting Regressor: Another ensemble method that sequentially improves 
 Final Model Selection:
 After hyperparameter tuning, the Random Forest Regressor with optimized parameters was selected as the final model due to its strong performance in predicting happiness scores.
 
-Key Findings
+**Key Findings**
 Through the modeling process, it was identified that certain factors had a more significant impact on the happiness score:
 
 Log GDP per capita: Higher economic prosperity was strongly associated with higher happiness scores.
@@ -49,7 +52,5 @@ Freedom to make life choices: Greater personal freedom was closely linked to hig
 Perceptions of corruption: Higher perceived corruption was associated with lower happiness scores.
 These insights underscore the importance of economic stability, social cohesion, health, and governance in fostering national happiness.
 
-Conclusion
-The project successfully demonstrated how machine learning techniques can be applied to predict and analyze factors contributing to national happiness. The final model provided valuable insights into which socio-economic indicators are most influential in determining the happiness levels of different countries.
-Conclusion
-The project successfully demonstrated the use of machine learning techniques to predict happiness levels based on socio-economic indicators. This model can be valuable for policymakers, NGOs, and companies aiming to improve well-being and target interventions effectively in different regions.
+**Conclusion**
+The project successfully demonstrated how machine learning techniques can be applied to predict and analyze factors contributing to national happiness. The final model provided valuable insights into which socio-economic indicators are most influential in determining the happiness levels of different countries. This model, in addition to providing information for anybody looking to understand 'happiness', can also be valuable for policymakers, NGOs, and companies aiming to improve well-being and target interventions effectively in different regions.
