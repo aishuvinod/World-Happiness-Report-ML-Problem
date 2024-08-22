@@ -50,6 +50,17 @@ Three models were trained and evaluated:
 **Final Model Selection:**
 After hyperparameter tuning, the **Random Forest Regressor with optimized parameters** was selected as the final model due to its strong performance in predicting happiness scores.
 
+**Libraries Used**
+
+
+- Pandas: For data manipulation and analysis, used to load and process the dataset.
+- NumPy: For numerical computing, used for handling arrays and mathematical operations.
+- Matplotlib: For data visualization, used to create plots and visualize data distributions.
+- Seaborn: For advanced data visualization, used to generate plots such as heatmaps and pairplots.
+- Scikit-learn: For machine learning, used for model training, evaluation, and feature scaling, including Linear Regression, Random Forest, and Gradient Boosting models.
+- StandardScaler: From scikit-learn, used for feature scaling to standardize numerical values.
+- GridSearchCV: From scikit-learn, used for hyperparameter tuning to optimize model performance.
+
 **Key Findings**
 
 
