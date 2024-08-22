@@ -8,9 +8,9 @@ This project focuses on analyzing and predicting happiness levels across various
 **Dataset:**
 The dataset, WHR2018Chapter2OnlineData.csv, includes the following features:
 
-Country: The name of the country.
-Year: The year of the observation.
-Life Ladder: The happiness score of the country, which serves as the target variable for prediction.
+- Country: The name of the country.
+- Year: The year of the observation.
+- Life Ladder: The happiness score of the country, which serves as the target variable for prediction.
 Log GDP per capita: The logarithm of the country's GDP per capita.
 Social support: The perceived social support in the country.
 Healthy life expectancy at birth: The life expectancy at birth adjusted for health.
